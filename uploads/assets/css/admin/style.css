@@ -1,0 +1,64 @@
+.form-horizontal .control-label.required:after{
+    content: '*';
+    display: inline-block;
+    position: relative;
+    color: red;
+}
+.nav-buttons {
+    margin-bottom: 15px;
+}
+    .nav-buttons .nav-justified > li {
+        padding: 0 5px;
+    }
+        .nav-buttons .nav-justified > li:first-child {
+            padding-left: 0;
+        }
+        .nav-buttons .nav-justified > li:last-child {
+            padding-right: 0;
+        }
+    .nav-buttons .nav-pills > li > a {
+        background-color: #3c8dbc;
+        color: #fff;
+        border: 0;
+        transition: 0.5s all;
+    }
+        .nav-buttons .nav-pills > li > a:hover {
+            background-color: #367fa9;
+        }
+    .nav-buttons .nav-pills > li.active > a {
+        background-color: #222d32;
+        border-color: #222d32;
+        border: 0;
+        font-weight: normal;
+    }
+#div_msg{color: #FF0000;}
+.jconfirm-box-container .content{min-height: 70px !important;}
+.custom-upload {
+    background-color: #367FA9;
+    border: 1px solid #367FA9;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    padding: 4px 10px;
+}
+.custom-upload input {
+    left: -9999px; 
+    position: absolute;
+}
+.fancybox-custom .fancybox-skin {
+    box-shadow: 0 0 50px #222;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-buttons .nav-pills > li > a {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .nav-buttons .nav-justified > li:last-child {
+        padding-right: 5px;
+    }
+    .nav-buttons .nav-justified > li:first-child {
+        padding-left: 5px;
+    }
+}
